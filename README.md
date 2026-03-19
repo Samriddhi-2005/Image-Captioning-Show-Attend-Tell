@@ -50,7 +50,7 @@ git clone https://github.com/Samriddhi-2005/Image-Captioning-Show-Attend-Tell.gi
 cd Image-Captioning-Show-Attend-Tell
 ```
 
-### Step 2: Clone the Repository
+### Step 2: Install Dependencies
 Ensure you have Python installed, then install the required libraries:
 
 ```bash
