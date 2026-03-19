@@ -20,6 +20,7 @@ Unlike standard image captioning models that simply guess the next word, this mo
 ## 🌟 Example Output & Attention Heatmap
 
 **1. Input Image:** 
+
 ![Input Image](images.jpg)
 
 **2. Generated Caption:** > *"a brown dog is running on the beach ."*
@@ -45,7 +46,7 @@ This model was trained from scratch using the **Flickr8k Dataset**, which contai
 
 ### Step 1: Clone the Repository
 ```bash
-git clone [https://github.com/Samriddhi-2005/Image-Captioning-Show-Attend-Tell.git](https://github.com/Samriddhi-2005/Image-Captioning-Show-Attend-Tell.git)
+git clone https://github.com/Samriddhi-2005/Image-Captioning-Show-Attend-Tell.git
 cd Image-Captioning-Show-Attend-Tell
 ```
 
@@ -64,19 +65,17 @@ Download the pre-trained .pth files from here: [https://drive.google.com/file/d/
 Place these files directly into your project's main directory.
 
 ### Step 4: Run Inference (Generate a Caption)
-
 To test the model on a new image:
-
-Place your target image in the project folder.
-
-Open predict.py and update the test_image_path variable to match your image's file name.
-
-Run the script:
+1. Place your target image in the project folder.
+2. Open predict.py and update the test_image_path variable to match your image's file name.
+3. Run the script:
 
 ```bash
 python predict.py
 ```
 This will print the generated caption to the terminal and open a visual grid of the attention heatmaps!
+
+---
 
 ## 📚 References
 Original Paper: Xu, K., Ba, J., Kiros, R., Cho, K., Courville, A., Salakhudinov, R., Zemel, R., & Bengio, Y. (2015). "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention." Proceedings of the 32nd International Conference on Machine Learning (ICML).
