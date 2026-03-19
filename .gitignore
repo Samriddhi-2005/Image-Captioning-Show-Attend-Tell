@@ -1,0 +1,9 @@
+# Ignore the massive dataset
+flickr8k/
+
+# Ignore the heavy AI weights
+*.pth
+
+# Ignore Python cache and Colab junk
+__pycache__/
+.ipynb_checkpoints/
