@@ -81,3 +81,6 @@ This will print the generated caption to the terminal and open a visual grid of 
 Original Paper: Xu, K., Ba, J., Kiros, R., Cho, K., Courville, A., Salakhudinov, R., Zemel, R., & Bengio, Y. (2015). "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention." Proceedings of the 32nd International Conference on Machine Learning (ICML).
 
 Dataset: Hodosh, M., Young, P., & Hockenmaier, J. (2013). "Framing Image Description as a Ranking Task: Data, Models and Evaluation Metrics." Journal of Artificial Intelligence Research.
+
+(https://arxiv.org/abs/1502.03044)
+(https://github.com/kelvinxu/arctic-captions?tab=readme-ov-file)
